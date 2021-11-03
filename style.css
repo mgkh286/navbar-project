@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  /* background-color: #10e433; */
+  background-color: tomato;
+  padding: 1.2rem 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.navbar-item {
+  padding-left: 1rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+  background-image: url('./img/pc.jpg');
+  /* background-attachment: fixed; */
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  color: #fff;
+  line-height: 2rem;
+}
+
+.description h2 {
+  font-size: 3rem;
+  padding-bottom: 2.5rem;
+}
+
+.description h2::first-letter {
+  color: #fff;
+}
+
+.description p {
+  width: 70%;
+  /* border: 2px solid #ffffff88; */
+  border-radius: 10px;
+  font-size: 1.3rem;
+  background-color: transparent;
+}
+
+.gallery {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 3rem 0;
+  height: 450px;
+}
+
+.card {
+  padding-left: 0.5rem;
+  /* transition: all 3s ease-in-out; */
+}
+
+.card h2 {
+  font-size: 2rem;
+  color: rgba(230, 214, 212, 0.89);
+}
+
+.card p {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+.card img {
+  width: 16rem;
+  height: 12rem;
+  border: 2px solid #ffffff50;
+  border-radius: 0.7rem;
+}
+
+footer {
+  padding: 2rem 2.5rem;
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.7rem;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  margin-left: 1rem;
+  /* color: red; */
+}
